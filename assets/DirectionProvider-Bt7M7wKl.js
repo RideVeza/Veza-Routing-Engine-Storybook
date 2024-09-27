@@ -1,0 +1,1 @@
+import"./factory-BYdAncit.js";import{r as t}from"./index-BP8_t0zE.js";const e=t.createContext({dir:"ltr",toggleDirection:()=>{},setDirection:()=>{}});function i(){return t.useContext(e)}export{i as u};
