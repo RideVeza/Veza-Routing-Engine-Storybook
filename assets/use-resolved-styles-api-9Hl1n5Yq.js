@@ -1,0 +1,1 @@
+import"./index-BP8_t0zE.js";import"./jsx-runtime-CexXSJP5.js";import{b as r,r as a,c as i}from"./factory-Cmy58O58.js";function d({classNames:o,styles:l,props:e,stylesCtx:s}){const t=r();return{resolvedClassNames:a({theme:t,classNames:o,props:e,stylesCtx:s||void 0}),resolvedStyles:i({theme:t,styles:l,props:e,stylesCtx:s||void 0})}}export{d as u};

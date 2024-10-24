@@ -1,1 +1,0 @@
-import{r as t,a as u}from"./index-BP8_t0zE.js";import{r as s}from"./random-id-CCVmTau8.js";const f=typeof document<"u"?t.useLayoutEffect:t.useEffect,c=u.useId||(()=>{});function d(){const e=c();return e?`mantine-${e.replace(/:/g,"")}`:""}function p(e){const n=d(),[o,r]=t.useState(n);return f(()=>{r(s())},[]),typeof e=="string"?e:typeof window>"u"?n:o}export{f as a,p as u};

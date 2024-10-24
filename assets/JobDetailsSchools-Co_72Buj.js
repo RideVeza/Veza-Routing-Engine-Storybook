@@ -1,0 +1,6 @@
+import{j as s}from"./jsx-runtime-CexXSJP5.js";import{j as n}from"./index-DhrrqPsw.js";import{d as c}from"./styled-components.browser.esm-Dx2qpfAi.js";import{J as l}from"./jobs-DhiDD4xb.js";import{t as r}from"./theme-DV-fQgRe.js";import{C as u}from"./Card-D3lXULz8.js";import{F as a}from"./Flex-DfchtKyW.js";import{T as d}from"./Title-NR0nO8_X.js";const h=c.div`
+  .schools-detail-card {
+    border: 1px solid ${o=>o.theme.colors.gray[0]};
+    border-radius: 8px;
+  }
+`,f=({routes:o})=>{const t=[];return o.filter(e=>e.shift===l.AM).forEach(e=>{const i=t.find(m=>m.name===e.schoolName);i?(i.routesNumber+=1,i.studentsNumber+=e.studentNumber):t.push({id:`school-${e.studentRouteId}`,name:e.schoolName,routesNumber:1,studentsNumber:e.studentNumber})}),s.jsx(h,{theme:r,children:t.map(e=>s.jsx(u,{radius:8,mb:8,className:"schools-detail-card",children:s.jsxs(a,{gap:50,justify:"space-between",align:"center",children:[s.jsxs(a,{direction:"column",gap:1,children:[s.jsx(d,{order:3,children:typeof e.name=="string"?e.name:"-"}),s.jsxs(a,{gap:5,children:[s.jsx(d,{order:5,fw:500,c:r.colors.gray[4],children:`${e.routesNumber} Routes,`}),s.jsx(d,{order:5,fw:500,c:r.colors.gray[4],children:`${e.studentsNumber} Students`})]})]}),s.jsx(n,{size:24,color:r.colors.primary[6]})]})},e.id))})};f.__docgenInfo={description:"",methods:[],displayName:"JobDetailsSchools"};export{f as J};

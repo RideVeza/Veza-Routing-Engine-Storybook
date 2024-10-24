@@ -1,1 +1,0 @@
-import{j as a,i}from"./factory-BYdAncit.js";import{r as e}from"./index-BP8_t0zE.js";function x(o){const t=e.forwardRef(o);return t.withProps=n=>{const r=e.forwardRef((s,p)=>a.jsx(t,{...n,...s,ref:p}));return r.extend=t.extend,r.displayName=`WithProps(${t.displayName})`,r},t.extend=i,t}export{x as p};
